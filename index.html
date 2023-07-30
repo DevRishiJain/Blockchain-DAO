@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RWA Management</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div id="rwa-module">
+    <h2>RWA Management</h2>
+
+    <div id="rwa-creation">
+      <h3>Create RWA</h3>
+      <input type="text" id="rwa-name" placeholder="RWA Name">
+      <input type="text" id="rwa-members" placeholder="Initial Members (comma-separated)">
+      <button onclick="createRWA()">Create</button>
+    </div>
+
+    <div id="membership-management">
+      <h3>Membership Management</h3>
+      <input type="text" id="new-member" placeholder="New Member">
+      <button onclick="addMember()">Add Member</button>
+      <button onclick="removeMember()">Remove Member</button>
+    </div>
+
+    <div id="voting">
+      <h3>Voting</h3>
+      <input type="text" id="proposal-title" placeholder="Proposal Title">
+      <textarea id="proposal-description" placeholder="Proposal Description"></textarea>
+      <button onclick="createProposal()">Create Proposal</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

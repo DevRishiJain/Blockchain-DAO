@@ -1,0 +1,27 @@
+#rwa-module {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  #rwa-creation,
+  #membership-management,
+  #voting {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  textarea {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 10px 0;
+  }
+  
